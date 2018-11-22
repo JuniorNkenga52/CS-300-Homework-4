@@ -28,7 +28,7 @@ cout<<bst.search(entry,except)<<endl;
 t=clock()-t;
 cout<<"BST time: "<<t<<" milliseconds"<<endl;
 t=clock();
-search(array,code,size);
+search(array,entry,size);
 t=clock()-t;
 cout<<"Array time: "<<t<<" milliseconds"<<endl;
 
